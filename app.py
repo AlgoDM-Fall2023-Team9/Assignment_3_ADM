@@ -47,15 +47,15 @@ for image_path in image_paths:
     image = cv2.resize(image, (200, 200))
     images[ntpath.basename(image_path)] = image
 
-n_col = 8
-n_row = int(len(images) / n_col)
-f, ax = plt.subplots(n_row, n_col, figsize=(16, 8))
-plt.axis('off')  # Remove axes in the plot
+# n_col = 8
+# n_row = int(len(images) / n_col)
+# f, ax = plt.subplots(n_row, n_col, figsize=(16, 8))
+# plt.axis('off')  # Remove axes in the plot
 
-for i in range(n_row):
-    for j in range(n_col):
-        ax[i, j].imshow(list(images.values())[n_col * i + j])
-        ax[i, j].set_axis_off()
+# for i in range(n_row):
+#     for j in range(n_col):
+#         ax[i, j].imshow(list(images.values())[n_col * i + j])
+#         ax[i, j].set_axis_off()
 
 # Show the plot in the Streamlit web app
 #st.pyplot(f)
