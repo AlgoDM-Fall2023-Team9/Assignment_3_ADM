@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 import glob
 
 # Replace this with the full path to your directory
-directory_path = '/Users/siddhesh/Downloads/ADM_clip/Assignment_1.1/images-by-style'
+directory_path = 'Assignment_3_ADM/images-by-style'
 
 # Use the directory_path in the glob function
 image_paths = glob.glob(f'{directory_path}/*.jpg')
@@ -145,7 +145,7 @@ class StyleModel(tf.keras.models.Model):
 
 def load_vgg19_model():
     vgg = tf.keras.applications.VGG19(include_top=False, weights=None)
-    vgg.load_weights('/Users/siddhesh/Downloads/ADM_clip/Assignment_1.1/vgg19_weights.h5')
+    vgg.load_weights('Assignment_3_ADM/vgg19_weights.h5')
     return vgg
 
 # Load the VGG19 model
