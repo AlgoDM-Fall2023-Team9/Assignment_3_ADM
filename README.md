@@ -1,6 +1,6 @@
 # Assignment_3_ADM
 
-##Image Search By an Artistic Style
+## Image Search By an Artistic Style
 
 The project you provided is titled "Neural Style Transfer Image Search." It is a combination of several machine learning and image processing techniques to achieve two main objectives: neural style transfer and image retrieval based on artistic style. Below is an explanation of the entire project's functionality:
 
@@ -77,7 +77,7 @@ In summary, this project offers a practical and interactive tool for users who a
 
 
 
-##Visual Search Similarity
+## Visual Search Similarity
 
 1.  Project Description:
 This project is an "Image Classification Demo" that utilizes a pre-trained deep learning model for image classification. The primary goal of this project is to provide a user-friendly interface for users to upload their own images and receive predictions about the category or class to which those images belong. Here's what this project is about and the output it provides:
