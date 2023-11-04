@@ -189,3 +189,4 @@ Reduced Search Time: Visual search reduces the time and effort required to find 
 Conclusion: 
 Visual Search Variational Autoencoders are becoming increasingly vital in various industries, including e-commerce, where the ability to search for products using images rather than text significantly enhances user experiences. Wayfair's implementation of VVAEs demonstrates how this technology can improve product discovery, increase sales, and simplify the customer journey by providing intuitive and visually guided search capabilities. As AI and deep learning continue to advance, VVAEs offer promising solutions for businesses seeking to meet the growing demand for visual search and recommendation systems.
 
+https://codelabs-preview.appspot.com/?file_id=1pah8VgyBOk88BJSHaVjesSvFEEzKHBgiTwdcJfRaV_s#0 
